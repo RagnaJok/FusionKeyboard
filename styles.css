@@ -1,0 +1,30 @@
+.beer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.beer-item {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+}
+
+.beer-item img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.beer-item p {
+    position: absolute;
+    bottom: 20px;
+}
